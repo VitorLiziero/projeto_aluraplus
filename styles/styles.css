@@ -181,6 +181,47 @@ body{
     color: var(--cor-de-fundo);
 }
 
+@media (max-width: 768px) {
+    .container {
+        display: block;
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .container__caixa {
+        margin: 0 1em;
+    }
+
+    .secundario {
+        margin: 2em 1em;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .dispositivos__lista {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .rodape__lista {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+
 
 
 
